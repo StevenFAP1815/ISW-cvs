@@ -1,0 +1,76 @@
+#Documento de Requisitos de Software
+
+## 1. Introducción.
+
+### 1.1. Alcance del Producto.
+-Se espera que el producto escale con el tiempo.
+-Se espera una alta demanda de usuarios.
+### 1.2. Valor del Producto.
+-Canales de noticias podrán informar a los usuarios mas Jovenes mediante videos en la aplicación.
+-Entretenimiento para todo publico.
+-Contenido variado que promueve el aprendizaje.
+-Promueve la creatividad en la creación de contenido para entretener.
+### 1.3. Público Objetivo.
+Esta dirigido a un publico general que comprende todas las edades y de cualquier nación, origen o cultura.
+### 1.4. Uso Previsto.
+- Entretenimiento con videos de su agrado
+- Diversion con juegos entretenidos
+- Creación de contenido de la forma mas dinámica
+- interacción social
+- Marketing y publicidad
+- Educación
+### 1.5. Descripción General.
+En resumen podemos decir que la aplicación tiene como objetivo el entretenimiento e interacción social, 
+llevando a las personas a desarrollar sus habilidades creativas y sociales, impulsando así mismo el 
+crecimiento educativo de cada usuario debido a la amplia variedad de videos y al gran alcance que 
+tiene la red a nivel mundial.
+## 2. Requisitos.
+
+### 2.1. Requisitos Funcionales 
+- Registrar usuario
+- iniciar session
+- subir videos
+- editar videos
+- explorar contenido
+- buscar contenido
+- seguir usuarios para apoyarlos y hacerlos viral
+- notificar 
+- reportar contenido 
+- configurar privacidad
+- Integrar música
+- Recomendar contenido personalizados
+- editar contenido de otro usuario personalizado (duetos)
+- restricción a contenido que promuevan el racismo, maltrato animal y/o violencia
+- elegir idioma 
+
+### 2.2. Requisitos de Diseño.
+-Feed vertical de fácil desplazamiento
+	*Los videos deben ocupar toda la pantalla
+	*Botones para dar me gusta al video, comentar, compartir, perfil del usuario.
+	*Por comodidad y familiaridad con la app original los botones estarán en el borde derecho de la pantalla.
+	*Los botones estarán ubicados y diseñados de tal forma que no se opaque el contenido principal.
+-Pantalla de grabación de videos.
+	*Botón en el centro inferior de la pantalla.
+	*Botones a los costados para agregar filtros y editar.
+	*Para facilitar temas de edición los botones tendrán íconos de fácil reconocimiento para el usuario.
+-Desplazamiento entre pantallas
+	*Botones específicos con iconos representativos en la parte inferior de la pantalla para desplazarce entre las distintas 
+	 pantallas.
+		/Botones: Inicio, amigos, crear contenido, bandeja de entrada de mensajes, perfil y minijuegos.	
+	*Botones en la parte superior para acceder a los usuarios que el usuario sigue, el feed (llamado para ti) y el ícono de búsqueda.
+-Pantalla de minijuegos
+	*Funcionalidad extra a la aplicación original, para que el usuario tenga mayor variedad de entretenimiento sin salir de la app.
+	*Los juegos serán sencillos como 3 en raya, sudoku, la serpiente.
+-Pantalla de perfil de usuario
+	*Se seguirá el formato que ofrece la app original
+-Pantalla de notificaciones
+	*Se seguirá el formato que ofrece la app original
+-Interfaz para los chats y mensajes directos
+	*Se seguirá el formato que ofrece la app original
+### 2.3. Requisitos no Funcionales.
+- Control de privacidad para gestionar quien puede acceder al contenido de un usuario.
+- Capacidad de almacenamiento media ya que la aplicación será lanzada en un principio como modo prueba
+  en caso de que la demanda aumente por aceptación e la comunidad hacia la aplicación se adaptará esta capacidad a los requerido.
+- En un principio la aplicación solo estará disponible para dispositivos móviles.
+- No se restringirá un límite de uso y los usuarios podrán usar la aplicación en cualquier momento.
+- Se hará un mantenimiento regular a la aplicación para asegurar que no hayan fallas y ofrecer una buena experiencia al usuario.
