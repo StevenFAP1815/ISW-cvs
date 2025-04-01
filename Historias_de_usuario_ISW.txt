@@ -1,0 +1,13 @@
+#Historias de usuario.
+
+Historia 1: Registrar de usuario
+
+Como cliente/consumidor de la app necesito registrarme para poder acceder a todos los beneficios que ofrece la aplicación como: personalización de experiencia, monetización y publicidad, etc.
+
+Historia 2: Elegir idioma
+
+Como cliente/consumidor de la app puedo escoger el idioma con el que me sienta más cómodo y así poder mejorar mi experiencia.
+
+Historia 3: Reportar contenido
+
+Como usuario de la app, quiero poder reportar contenido que considere inapropiado o violente las normas de la comunidad, para contribuir a un entorno seguro y protegido.
