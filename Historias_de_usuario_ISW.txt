@@ -1,13 +1,92 @@
 #Historias de usuario.
 
-Historia 1: Registrar de usuario
+##Historia 1: Registrar de usuario
 
 Como cliente/consumidor de la app necesito registrarme para poder acceder a todos los beneficios que ofrece la aplicación como: personalización de experiencia, monetización y publicidad, etc.
 
-Historia 2: Elegir idioma
+Criterios de aceptación: 
+
+1. Registro exitoso: Pantalla de inicio de sesión 
+
+-Dado que soy un nuevo usuario
+
+-Cuando ingreso mi email válido, una contraseña segura (8+ caracteres) y mi nombre
+
+-Entonces recibo un correo de verificación y mi cuenta se activa al hacer clic en el enlace del correo y automáticamente navego hasta la pantalla de configuración de contenido
+
+2. Email ya registrado:
+
+-Dado que intento registrarme con un email existente
+
+-Cuando completo el formulario
+
+-Entonces el sistema muestra "Este correo ya está registrado" y debo intentar con otro usuario.
+
+3. Contraseña insegura: 
+
+-Dado que ingreso una contraseña de menos de 8 caracteres
+
+-Cuando intento registrarme
+
+-Entonces el sistema muestra "La contraseña debe tener mínimo 8 caracteres, incluir mayúscula y número"
+
+
+##Historia 2: Elegir idioma
 
 Como cliente/consumidor de la app puedo escoger el idioma con el que me sienta más cómodo y así poder mejorar mi experiencia.
 
-Historia 3: Reportar contenido
+Criterios de aceptación: 
+
+1. Cambio de idioma: Pantalla de ajustes botón idioma
+
+-Dado que estoy en la sección Ajustes
+
+-Cuando selecciono "Español" o cualquier otro idioma en el selector de idioma
+
+-Entonces toda la interfaz se muestra inmediatamente en español o el idioma de preferencia
+
+2. Persistencia de configuración
+
+-Dado que cambié el idioma a Francés
+
+-Cuando cierro y vuelvo a abrir la app
+
+-Entonces la app mantiene el Francés como idioma seleccionado
+
+3. Idioma por defecto
+
+-Dado que nunca he seleccionado un idioma
+
+-Cuando abro la app por primera vez
+
+-Entonces el sistema usa el idioma de mi dispositivo
+
+
+## Historia 3: Reportar contenido
 
 Como usuario de la app, quiero poder reportar contenido que considere inapropiado o violente las normas de la comunidad, para contribuir a un entorno seguro y protegido.
+Criterios de aceptación:
+
+1. Reporte básico: Pantalla de reportes, botón denunciar
+
+-Dado que veo un video inapropiado
+
+-Cuando hago clic en "Reportar" y selecciono "Contenido violento"
+
+-Entonces recibo un mensaje de confirmación "Gracias por tu reporte"
+
+2. Bloqueo por múltiples reportes
+
+-Dado que un usuario ha recibido 3 reportes válidos en 24 horas
+
+-Cuando el equipo de moderación los verifica
+
+-Entonces el sistema suspende temporalmente la cuenta
+
+3. Feedback de acción
+
+-Dado que reporté un video
+
+-Cuando el equipo lo elimina por violar normas
+
+-Entonces recibo una notificación "Tu reporte ayudó a eliminar contenido inapropiado"
